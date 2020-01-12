@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D828525623806824008D6029 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D828525523806824008D6029 /* main.cpp */; };
+		D828526323806859008D6029 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D828525C23806859008D6029 /* Matrix.cpp */; };
+		D828526423806859008D6029 /* Rational.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D828525D23806859008D6029 /* Rational.cpp */; };
+		D828526A23809C2D008D6029 /* MatrixOperations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D828526823809C2D008D6029 /* MatrixOperations.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D801B35E239D34CC006466A2 /* Solution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solution.hpp; sourceTree = "<group>"; };
+		D801B361239D359E006466A2 /* GaussSolution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GaussSolution.hpp; sourceTree = "<group>"; };
+		D801B364239D3A8F006466A2 /* KramerSolution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KramerSolution.hpp; sourceTree = "<group>"; };
 		D828525223806824008D6029 /* Matrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Matrix; sourceTree = BUILT_PRODUCTS_DIR; };
 		D828525523806824008D6029 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D828525C23806859008D6029 /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		D828525D23806859008D6029 /* Rational.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rational.cpp; sourceTree = "<group>"; };
+		D828526123806859008D6029 /* Matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Matrix.hpp; sourceTree = "<group>"; };
+		D828526223806859008D6029 /* Rational.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rational.h; sourceTree = "<group>"; };
+		D828526823809C2D008D6029 /* MatrixOperations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixOperations.cpp; sourceTree = "<group>"; };
+		D828526923809C2D008D6029 /* MatrixOperations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MatrixOperations.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,15 @@
 			isa = PBXGroup;
 			children = (
 				D828525523806824008D6029 /* main.cpp */,
+				D828526123806859008D6029 /* Matrix.hpp */,
+				D828526223806859008D6029 /* Rational.h */,
+				D801B35E239D34CC006466A2 /* Solution.hpp */,
+				D801B361239D359E006466A2 /* GaussSolution.hpp */,
+				D801B364239D3A8F006466A2 /* KramerSolution.hpp */,
+				D828526923809C2D008D6029 /* MatrixOperations.hpp */,
+				D828525D23806859008D6029 /* Rational.cpp */,
+				D828525C23806859008D6029 /* Matrix.cpp */,
+				D828526823809C2D008D6029 /* MatrixOperations.cpp */,
 			);
 			path = Matrix;
 			sourceTree = "<group>";
@@ -118,6 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D828526A23809C2D008D6029 /* MatrixOperations.cpp in Sources */,
+				D828526323806859008D6029 /* Matrix.cpp in Sources */,
+				D828526423806859008D6029 /* Rational.cpp in Sources */,
 				D828525623806824008D6029 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
